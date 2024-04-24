@@ -1,0 +1,36 @@
+extends layout
+
+block content
+  form(action="/", method="post") 
+    .all 
+      .register 
+      <h1><i>Register Yourself</i></h1>
+      <hr>
+      .form 
+        div.label
+          label(for="username") Enter your Username
+        .input 
+          input.text(type="text" id="username" required name="username")
+
+        .label 
+          label(for="name") Enter Your Full Name
+        .input 
+          input.text(type="text" id="Name" required name="name")
+
+        .label 
+          label(for="birth") Enter your DOB 
+        .input 
+          input.text(type="date" id="birth" required name="dob")
+
+        .label 
+          label(for="email") Enter Your E-mail 
+        .input 
+          input.text(type="email" id="email" required name="email")
+
+        .label 
+          label(for="pass") Enter Your Password 
+        .input 
+          input.text(type="password" id="pass" required name="pass")
+
+        .button 
+          button.submit(type="Submit") Submit

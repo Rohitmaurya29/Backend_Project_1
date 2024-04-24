@@ -1,0 +1,83 @@
+.all{
+  background-color: burlywood;
+  height:625px;
+  padding:50px;
+}
+
+.whole{
+  background-color:rgb(171, 199, 250);
+  height:625px;
+  padding:50px;
+}
+
+.login{
+  padding:10px;
+  max-width: 240px;
+  margin:0 auto;
+  color:blueviolet;
+  margin-bottom: 10px !important;
+  font-size:40px;
+}
+
+.form{
+  margin-top: 20px;
+}
+
+
+h1{
+  max-width: 250px;
+  margin:0 auto;
+  color:blueviolet;
+  margin-bottom: 10px !important;
+ 
+}
+
+.label{
+  max-width:250px;
+  font-size:20px;
+  margin:20px auto;
+  font-family:cursive;
+  /* margin-top: 10px; */
+}
+
+.input{
+  max-width:500px;
+  margin:10px auto;
+}
+
+.text{
+  height:35px;
+  border-radius:10px;
+  width:100%;
+}
+
+.button{
+  max-width:100px;
+  margin:10px auto;
+  
+}
+
+.submit{
+  padding:7px;
+  font-size: 15px;
+  font-weight:500px;
+  margin-top:5px;
+  border-radius:5px;
+  color:white;
+  background-color:rgb(37,193,77);
+  width:100px
+}
+
+.welcome{
+  background-color: rgb(180, 170, 248);
+  height:728px;
+}
+
+h2{
+  max-width: 480px;
+  margin:0 auto;
+  padding-top:15%;
+  color:darkslateblue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+}
